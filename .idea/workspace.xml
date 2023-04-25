@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd42447b-f9d8-4e7c-83df-f7337eb4fcd1" name="Changes" comment="Start">
-      <change afterPath="$PROJECT_DIR$/src/FlappyBird.java" afterDir="false" />
+    <list default="true" id="bd42447b-f9d8-4e7c-83df-f7337eb4fcd1" name="Changes" comment="Start&#10;&#10;window">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FlappyBird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FlappyBird.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681902317446</updated>
       <workItem from="1681902319082" duration="915000" />
-      <workItem from="1682424341477" duration="2533000" />
+      <workItem from="1682424341477" duration="3241000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1682424548619</created>
@@ -57,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682424548619</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Start&#10;&#10;window">
+      <created>1682427110074</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682427110074</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +82,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start" />
+    <MESSAGE value="Start&#10;&#10;window" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start&#10;&#10;window" />
   </component>
 </project>
