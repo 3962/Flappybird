@@ -4,7 +4,7 @@ import java.awt.event.KeyListener;
 import java.awt.event.KeyEvent;
 
 
-public class Bird extends JPanel {
+public class Bird extends JPanel implements KeyListener{
     private int x, y, width, height;
 
     public Bird() {
@@ -13,11 +13,13 @@ public class Bird extends JPanel {
         this.width = 50;
         this.height = 50;
         setBackground(Color.BLACK);
-        addKeyListener(this);
         setFocusable(true);
 
     }
 
+
+
+    // Overrides
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
@@ -28,18 +30,11 @@ public class Bird extends JPanel {
     @Override
     public void keyPressed(KeyEvent e){
         if(e.getKeyCode() == KeyEvent.VK_SPACE) {
-            y += 20;
+            y -= 20;
             repaint();
         }
     }
-    @Override
-    public void keyTyped(KeyEvent e){
-
-    }
-
-    @Override
-    public void keyReleased(KeyEvent e){
-
-    }
+    public void keyTyped(KeyEvent e){}
+    public void keyReleased(KeyEvent e){}
 
 }

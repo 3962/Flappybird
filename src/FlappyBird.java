@@ -14,8 +14,10 @@ public class FlappyBird {
         jframe.setResizable(false);
         jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+
         // Create a new instance of the Bird panel and add it to the JFrame
         Bird bird = new Bird();
+        bird.addKeyListener(bird);
         jframe.add(bird);
     }
 
